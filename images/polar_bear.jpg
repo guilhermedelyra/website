@@ -1,0 +1,17 @@
+--2017-06-13 11:33:36--  http://cdn.learnenough.com/polar_bear.jpg
+Resolving cdn.learnenough.com (cdn.learnenough.com)... 2400:cb00:2048:1::6819:a922, 2400:cb00:2048:1::6819:a822, 104.25.168.34, ...
+Connecting to cdn.learnenough.com (cdn.learnenough.com)|2400:cb00:2048:1::6819:a922|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://s3-us-west-2.amazonaws.com/learnenough/polar_bear.jpg [following]
+--2017-06-13 11:33:38--  https://s3-us-west-2.amazonaws.com/learnenough/polar_bear.jpg
+Resolving s3-us-west-2.amazonaws.com (s3-us-west-2.amazonaws.com)... 54.231.176.184
+Connecting to s3-us-west-2.amazonaws.com (s3-us-west-2.amazonaws.com)|54.231.176.184|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 74961 (73K) [image/jpeg]
+Saving to: ‘polar_bear.jpg’
+
+     0K .......... .......... .......... .......... .......... 68% 44.6K 1s
+    50K .......... .......... ...                             100%  147K=1.3s
+
+2017-06-13 11:33:41 (57.3 KB/s) - ‘polar_bear.jpg’ saved [74961/74961]
+
